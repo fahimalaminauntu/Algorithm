@@ -14,8 +14,8 @@ int main()
         if (arr[middle] == SearchingItem)
         {
             printf("Item Found at index : %d\n", middle);
-            //break;
-           return 0;
+            // break;
+            return 0;
         }
         else if (arr[middle] < SearchingItem)
         {
